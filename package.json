@@ -1,0 +1,28 @@
+{
+  "name": "default",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "start": "kkt start",
+    "build": "kkt build",
+    "test": "kkt test --env=jsdom",
+    "test:coverage": "kkt test --env=jsdom --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kktjs/kkt.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@uiw/react-monacoeditor": "^1.0.6",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "kkt": "^4.2.0",
+    "monaco-editor-webpack-plugin": "^1.7.0"
+  }
+}
